@@ -28,14 +28,17 @@ body{
 #box2{
     width: 60%;
     height: 100%;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 10px;
 }
 .inputcontain{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 30px auto;
+    margin: 15px auto;
     align-items: center;
 }
 .inputbox{
@@ -71,15 +74,15 @@ button{
 
 }
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:370px){
     #box1{
         display: none;
     }
     #box2{
-        width: 98%;
-        height: 100%;
-        margin: auto;
+        width: 90%;
+        margin: 2px auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -92,21 +95,22 @@ button{
         color: black;
     }
     .inputcontain{
-        margin: 5px auto;
+        margin:auto;
+        /* border: 2px solid orange; */
     }
     .inputbox{
-        margin: 2px;
+
         text-align: start;
     }
     input{
-        padding: 3px;
+        padding:1px;
     }
     #inputcontain2{
         display: none;
     }
     button{
         border-radius: 2px;
-
+        margin: 2px;
     }
     #btn1:hover{
         background-color: #b1cbe9;
@@ -116,7 +120,7 @@ button{
     }
 }
 
-@media only screen and (min-width:420px) and (max-width:700px){
+@media only screen and (min-width:370px) and (max-width:680px){
     #box1{
         display: none;
     }
