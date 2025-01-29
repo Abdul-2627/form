@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}black
+.box{
+    /* border: 2px solid red; */
+    padding: 15px;
+}
+#box1{
+    width: 40%;
+    height: 100vh;
+    background-image: url(./assets/future.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#box2{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.inputcontain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    align-items: center;
+}
+.inputbox{
+    margin: 2px;
+}
+h3{
+    font-size: 25px;
+}
+
+.inputbox input{
+    height: 25px;
+}
+
+.inputbox p,input{
+    margin: 2px;
+}
+
+button{
+    width: 170px;
+    margin: 2px ;
+    height: 25px;
+    border: 1px solid black;
+
+}
+
+#btn2{
+    background-color: #b1cbe9;
+}
+#btn1:hover{
+    background-color: #b1cbe9;
+    color: black;
+    transition: .3 all ease-in;
+
+}
+
+@media only screen and (max-width:420px){
+    #box1{
+        display: none;
+    }
+    #box2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+    #box2 p{
+        color: black;
+    }
+    #box2 h3{
+        color: black;
+    }
+    .inputcontain{
+        margin: 5px auto;
+    }
+    .inputbox{
+        margin: 2px;
+        text-align: start;
+    }
+    input{
+        padding: 3px;
+    }
+    #inputcontain2{
+        display: none;
+    }
+    button{
+        border-radius: 2px;
+
+    }
+    #btn1:hover{
+        background-color: #b1cbe9;
+        color: black;
+        transition: .3 all ease-in;
+
+    }
+}
+
+@media only screen and (min-width:420px) and (max-width:700px){
+    #box1{
+        display: none;
+    }
+    #box2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+    #box2 p{
+        color:black;
+    }
+    #box2 h3{
+        color:black;
+    }
+    .inputcontain{
+        margin: 15px auto;
+    }
+    .inputbox{
+        margin: 2px;
+        text-align: start;
+    }
+    input{
+        padding: 3px;
+    }
+    button{
+        border-radius: 2px;
+        width: 182px;
+    }
+    #btn1:hover{
+        background-color: #b1cbe9;
+        color: black;
+        transition: .3s all ease-in;
+    }
+}
