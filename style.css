@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 13px auto;
+    margin:auto;
     align-items: center;
 }
 .inputbox{
@@ -54,7 +54,7 @@ h3{
 }
 
 .inputbox input{
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 2px;
 
@@ -69,7 +69,7 @@ h3{
 
 button{
     width: 175px;
-    padding: 10px;
+    padding: 5px;
     /* height: 25px; */
     margin: 2px;
     border-radius: 2px;
@@ -89,7 +89,7 @@ button{
 
 }
 
-@media only screen and (max-width:740px){
+@media only screen and (max-width:370px){
     #box1{
         display: none;
     }
@@ -101,7 +101,7 @@ button{
     #box2{
         width: 90%;
         height: 100%;
-        padding: 10px;
+        /* padding: 10px;  */
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -118,11 +118,13 @@ button{
     }
     
     .inputbox{
-
         text-align: start;
     }
     input{
         padding:1px;
+    }
+    .inputcontain{
+        margin :2px auto;
     }
     #inputcontain2{
         display: none;
@@ -137,10 +139,9 @@ button{
         transition: .3 all ease-in;
 
     }
-}
-
+}   
 @media only screen and (min-width:370px) and (max-width:680px){
-    #box1{
+   #box1{
         display: none;
     }
     #box2{
@@ -158,14 +159,14 @@ button{
         color:black;
     }
     .inputcontain{
-        margin: 15px auto;
+        margin: 2px auto;
     }
     .inputbox{
         margin: 2px;
         text-align: start;
     }
     input{
-        padding: 3px;
+        padding:2px;
     }
     button{
         border-radius: 2px;
