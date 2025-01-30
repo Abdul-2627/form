@@ -18,45 +18,56 @@
 .box{
     /* border: 2px solid red; */
     padding: 15px;
+    margin: 2px;
 }
 #box1{
-    width: 40%;
+    width: 38%;
     height: 100%;
-    background-image: url(./assets/future.jpg);
+    background-image: url(./assets/lap.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
    
 }
 #box2{
-    /* border:2px solid orange; */
-    width: 60%;
+    width: 58%;
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* border: 2px solid red; */
+    flex-direction: column;    
     padding: 10px;
-    background-color: whitesmoke;
+    background-color: #6c1574;
 }
 .inputcontain{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin:auto;
+    margin:6px auto;
     align-items: center;
 }
+#inputconatin4 p{
+    color: #ff05c9;
+    display: inline-block;
+    font-size: 12px;
+    /* display: flex;
+    flex-direction: column; */
+}
+#inputcontain4 div{
+}
 .inputbox{
-    margin: 2px;
+    margin:2px;
 }
 h3{
-    font-size: 25px;
+    font-size: 18px;
+    color: #ff05c9;
 }
 
 .inputbox input{
-    padding: 5px;
+    padding: 2px;
+    font-size: 10px;
     border: none;
     border-radius: 2px;
+    color: #6c1574;
 
 }
 
@@ -64,27 +75,41 @@ h3{
     margin: 2px;
 }
 .inputbox p{
-    font-size: 14px;
+    color:#ff05c9;
+    font-size: 11px;
 }
 
 button{
-    width: 175px;
-    padding: 5px;
+    font-size: 10px;
+    color: #ff05c9;
+    width: 137px;
+    padding: 4px;
     /* height: 25px; */
     margin: 2px;
     border-radius: 2px;
     border: none;
 }
-
+#btbox{
+    height: 30px;
+    display: flex;
+}
 #btn1{
-    background-color: white;
+    background-color:whitesmoke;
 }
 #btn2{
-    background-color: #b1cbe9;
+    background-color: #ff05c9;
+    color: white;
+    transition: .3s all ease-in;
+}
+#btn2:hover{
+    background-color:white;
+    color: #ff05c9;
+
 }
 #btn1:hover{
-    background-color: #b1cbe9;
-    color: black;
+    background-color: #6c1574;
+    color: #ff05c9;
+    border: 1px solid #ff05c9;
     transition: .3 all ease-in;
 
 }
@@ -108,13 +133,13 @@ button{
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: whitesmoke;
+        background-color: #6c1574;
     }
     #box2 p{
-        color: black;
+        color: #ff05c9;
     }
     #box2 h3{
-        color: black;
+        color: #ff05c9;
     }
     
     .inputbox{
@@ -133,11 +158,17 @@ button{
         border-radius: 2px;
         margin: 2px;
     }
+    #btn2:hover{
+        background-color:white;
+        color: #ff05c9;
+    
+    }
     #btn1:hover{
-        background-color: #b1cbe9;
-        color: black;
+        background-color: #6c1574;
+        color: #ff05c9;
+        border: 1px solid #ff05c9;
         transition: .3 all ease-in;
-
+    
     }
 }   
 @media only screen and (min-width:370px) and (max-width:680px){
@@ -150,13 +181,15 @@ button{
         align-items: center;
         display: flex;
         flex-direction: column;
-        background-color: whitesmoke;
+        background-color: #6c1574;
     }
     #box2 p{
-        color:black;
+        color:#ff05c9;
+        font-size: 12px;
     }
     #box2 h3{
-        color:black;
+        font-size: 20px;
+        color:#ff05c9;
     }
     .inputcontain{
         margin: 2px auto;
@@ -170,7 +203,7 @@ button{
     }
     button{
         border-radius: 2px;
-        width: 182px;
+        width: 142px;
     }
     #btn1:hover{
         background-color: #b1cbe9;
