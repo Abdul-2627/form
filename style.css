@@ -136,9 +136,11 @@ button{
         background-color: #6c1574;
     }
     #box2 p{
+        font-size: 10px;
         color: #ff05c9;
     }
     #box2 h3{
+        font-size: 20px;
         color: #ff05c9;
     }
     
@@ -147,6 +149,7 @@ button{
     }
     input{
         padding:1px;
+        font-size: 8px;
     }
     .inputcontain{
         margin :2px auto;
@@ -157,6 +160,7 @@ button{
     button{
         border-radius: 2px;
         margin: 2px;
+        font-size: 8px;
     }
     #btn2:hover{
         background-color:white;
