@@ -11,7 +11,7 @@
     width: 98%;
     margin: 10px auto;
     height: 90vh;
-    box-shadow: 3px 3px 5px rgb(01, 010, 01 , .1);
+    /* box-shadow: 3px 3px 5px rgb(01, 010, 01 , .1); */
     display: flex;
     flex-wrap: wrap;
 }
@@ -30,7 +30,7 @@
    
 }
 #box2{
-    width: 58%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -44,23 +44,67 @@
     flex-wrap: wrap;
     margin:6px auto;
     align-items: center;
+    /* background-color: aquamarine; */
 }
-#inputconatin4 p{
-    color: #ff05c9;
-    display: inline-block;
-    font-size: 12px;
-    /* display: flex;
-    flex-direction: column; */
+#inputcontain4 div p{
+    color: white;
+    font-size: 10px;
+}
+input[type=radio]{
+    width:10%;
+    height: 10px;
 }
 #inputcontain4 div{
-    border: none;
+display: flex;
+width: 100%;
+/* align-items: center; */
 }
+
+#inputcontain4{
+    width:272px;
+    margin: 0 auto;
+}
+#input5{
+    color: white;   
+    width: 292px;   
+}
+#input5 a{
+    color: white;
+    font-weight: 300;
+    margin: auto 1.5px;
+    text-decoration: none;
+}
+#input5 div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+input[type=checkbox]{
+    width: 8%;
+    height: 8px;
+    margin: 1px;
+}
+input[type=text]{
+    outline: none;
+    
+}
+::placeholder{
+    color: #6c1574;
+    padding: 2px;
+}
+#input5 p,a{
+    font-size: 7px;
+}
+a{
+    color: darkblue;
+}
+
 .inputbox{
-    margin:2px;
+    margin:1px;
 }
 h3{
     font-size: 18px;
-    color: #ff05c9;
+    color: white;
 }
 
 .inputbox input{
@@ -73,10 +117,10 @@ h3{
 }
 
 .inputbox p,input{
-    margin: 2px;
+    margin:2.2px;
 }
 .inputbox p{
-    color:#ff05c9;
+    color:white;
     font-size: 11px;
 }
 
@@ -138,11 +182,11 @@ button{
     }
     #box2 p{
         font-size: 10px;
-        color: #ff05c9;
+        color: white;
     }
     #box2 h3{
         font-size: 20px;
-        color: #ff05c9;
+        color: white;
     }
     
     .inputbox{
@@ -158,9 +202,53 @@ button{
     #inputcontain2{
         display: none;
     }
+    #input5 p{
+        font-size:5px;
+    }
+    #input5 a{
+        font-size: 5px;
+    }
+    .inputcontain #check span,a{
+        font-size: 2px;
+    }
+    #input5{
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+    #inputcontain4{
+        width: 100%;
+        /* background-color: red; */
+    }
+    #inputcontain4 div{
+        display: flex;
+        width: 53%;
+        margin: 2px auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #inputcontain4 p{
+        background-color: #6c1574;
+        text-align: center;
+        align-items: center;
+    }
+    #input5 div{
+        width: 65%;
+        height: 20px;
+        display:flex;
+        margin: 2px auto;
+        justify-content:flex-start;
+        align-items: center;
+        text-align: center;
+    }
+    input[type=checkbox]{
+        width: 10%;
+        height: 10px;
+    }
     button{
+        width:100px;
+        padding: 5px 35px;
         border-radius: 2px;
-        margin: 2px;
+        margin: 5px;
         font-size: 8px;
     }
     #btn2:hover{
@@ -170,7 +258,7 @@ button{
     }
     #btn1:hover{
         background-color: #6c1574;
-        color: #ff05c9;
+        color: white;
         border: 1px solid #ff05c9;
         transition: .3 all ease-in;
     
@@ -189,12 +277,12 @@ button{
         background-color: #6c1574;
     }
     #box2 p{
-        color:#ff05c9;
-        font-size: 12px;
+        color:white;
+        font-size: 8px;
     }
     #box2 h3{
         font-size: 20px;
-        color:#ff05c9;
+        color:white;
     }
     .inputcontain{
         margin: 2px auto;
@@ -204,6 +292,7 @@ button{
         text-align: start;
     }
     input{
+        font-size: 8px;
         padding:2px;
     }
     button{
@@ -211,8 +300,8 @@ button{
         width: 142px;
     }
     #btn1:hover{
-        background-color: #b1cbe9;
-        color: black;
+        /* background-color: #b1cbe9; */
+        color: white;
         transition: .3s all ease-in;
     }
 }
