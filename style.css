@@ -53,6 +53,7 @@
     flex-direction: column; */
 }
 #inputcontain4 div{
+    border: none;
 }
 .inputbox{
     margin:2px;
